@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* 배경 색상 */
+}
+
+section {
+    position: relative;
+    width: 0;
+    height: 0;
+    text-align: center;
+    color: white;
+    font-size: 10px; /* 글자 크기를 줄임 */
+    font-weight: bold;
+}
+a{
+    color: white;
+}
+.a {
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid black;
+}
+
+.a h1 {
+    position: absolute;
+    top: 50%;
+    left: -40%;
+    transform: translate(-50%, 40%);
+}
+.b {
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid black;
+}
+
+.b h1 {
+    position: absolute;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%,-150%);
+}
+

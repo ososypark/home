@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.photo-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.photo {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.photo img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+@media screen and (max-width: 900px){
+    .photo img {
+        width: 150px;
+        height: auto;
+    }
+}
