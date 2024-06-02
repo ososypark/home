@@ -73,8 +73,8 @@ img {
 
 @media screen and (max-width: 900px){
 section {
-    width: 380px;
-    height: 620px;
+    width: 310px;
+    height: 630px;
     border: 1px solid black;
     margin: 50px;
 }

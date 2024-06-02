@@ -34,3 +34,13 @@ article {
     flex-wrap: wrap;
     align-items: center;
 }
+@media screen and (max-width: 900px){
+section {
+    width: 320px;
+    height: 1200px;
+    border: 1px solid black;
+    margin: 50px;
+}
+.aa{
+    height: 900px;
+}
