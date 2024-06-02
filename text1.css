@@ -6,9 +6,11 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: floralwhite;
 }
-
+body {
+    background-color: floralwhite;
+}
 .photo-album {
     display: flex;
     flex-direction: column;
@@ -24,6 +26,7 @@ body, html {
 .photo {
     margin: 0 10px;
     text-align: center;
+    width: 400px;
 }
 
 .photo img {
@@ -40,7 +43,10 @@ body, html {
 
 @media screen and (max-width: 900px){
     .photo img {
-        width: 150px;
+        width: 130px;
         height: auto;
+    }
+    .photo {
+        width: 120px;
     }
 }

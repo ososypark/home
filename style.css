@@ -1,51 +1,69 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
-body, html {
-    height: 100%;
-    margin: 0;
+body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0; /* 배경 색상 */
+    align-items: flex-end;
+    height: calc(100vh - 100px);
+    margin: 0;
+    background-color: #f0f0f0;
 }
-
-section {
+.house {
+    display: flex;
+    flex-wrap: wrap;
+    width: 284px;
+    height: 244px; 
     position: relative;
+}
+.square1{
+    width: 138px;
+    height: 120px;
+    background-color: #EAD9D5;
+    margin: 2px;
+}
+.square2{
+    width: 138px;
+    height: 120px;
+    background-color: #bbe4e9;
+    margin: 2px;
+}
+.square3{
+    width: 138px;
+    height: 120px;
+    background-color: #B4B8AB;
+    margin: 2px;
+
+}
+.square4{
+    width: 138px;
+    height: 120px;
+    background-color: #D1C6E0;
+    margin: 2px;
+
+}
+.roof {
+    position: absolute;
+    top: -84px;
+    left: 0;
     width: 0;
     height: 0;
-    text-align: center;
-    color: white;
-    font-size: 10px; /* 글자 크기를 줄임 */
-    font-weight: bold;
+    border-left: 142px solid transparent;
+    border-right: 142px solid transparent;
+    border-bottom: 83px solid #E63946;
 }
-a{
-    color: white;
-}
-.a {
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 60px solid black;
+body{
+    background-image: url("img/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100vw auto;
+
 }
 
-.a h1 {
-    position: absolute;
-    top: 50%;
-    left: -40%;
-    transform: translate(-50%, 40%);
+@media screen and (max-aspect-ratio: 3/2) {
+    body {
+        background-size: auto 100vh;
+    }
 }
-.b {
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-top: 60px solid black;
-}
-
-.b h1 {
-    position: absolute;
-    top: 50%;
-    left: 150%;
-    transform: translate(-50%,-150%);
-}
-
