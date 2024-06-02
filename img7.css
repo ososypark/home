@@ -21,7 +21,7 @@ ul {
 }
 
 li {
-    border: 1px solid black;
+ 
     width: calc(100vw/ 10);
     height: 45px;
     display: flex;
