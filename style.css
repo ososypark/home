@@ -17,12 +17,24 @@ body {
     height: 244px; 
     position: relative;
 }
+.square1, .square2, .square3, .square4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    color: gray;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+}
 .square1{
     width: 138px;
     height: 120px;
     background-color: #EAD9D5;
     margin: 2px;
+
 }
+
 .square2{
     width: 138px;
     height: 120px;
@@ -61,7 +73,9 @@ body{
     background-size: 100vw auto;
 
 }
-
+a {
+    text-decoration: none;
+}
 @media screen and (max-aspect-ratio: 3/2) {
     body {
         background-size: auto 100vh;

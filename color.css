@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.grid {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: border-radius 0.3s ease;
+}
+
+.grid1 { 
+  background-color: #3498db; 
+}
+
+.grid2 {
+  background-color: #FFD700; 
+}
+
+.grid3 {
+  background-color: #e74c3c; 
+}
+
+.grid:hover {
+  border-radius: 15%;
+}
