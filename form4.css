@@ -1,0 +1,40 @@
+body {
+    background-color: #F9F8EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.r {
+    width: 500px; 
+    height: 500px; 
+    background-color: #333; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px; 
+    margin: 20px; 
+}
+
+.r p {
+    margin: 0;
+    font-size: 23px;
+    line-height: 1.6;
+    word-break: keep-all;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+.r {
+    width: 315px; 
+    height: 315px;
+} 
+.r p {
+    margin: 0;
+    font-size: 14px;
+}
