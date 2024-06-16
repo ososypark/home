@@ -62,12 +62,12 @@ a {
 
 @media screen and (max-width: 900px){
 .square {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
