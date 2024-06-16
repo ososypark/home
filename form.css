@@ -56,7 +56,7 @@ a {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 166px;
+    height: 168px;
     background-color: #333;
 }
 
@@ -79,7 +79,7 @@ a {
 .container {
         gap: 30px; 
         top: auto;
-        bottom: 166px; /* Adjust this value as needed to position above the bottom-square */
+        bottom: 166px; 
         transform: translateX(-50%);
     }
 a {
